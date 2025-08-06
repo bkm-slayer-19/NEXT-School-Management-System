@@ -2,53 +2,15 @@
 
 A comprehensive full-stack school management platform with role-based authentication supporting students, teachers, and administrators with secure dashboard access.
 
-## 🚀 Quick Start
+## 🚀 Live Demo
 
-### Prerequisites
-- Node.js 18+ 
-- PostgreSQL database
-- Clerk account for authentication
-- Cloudinary account for image storage
+**[View Live Application](https://next-school-management-system-production.up.railway.app/)**
 
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/bkm-slayer-19/NEXT-School-Management-System.git
-cd NEXT-School-Management-System
-```
-
-2. **Install dependencies**
-```bash
-npm install
-# or
-yarn install
-```
-
-3. **Set up environment variables**
-Create a `.env.local` file in the root directory:
-```env
-DATABASE_URL="your-postgresql-connection-string"
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your-clerk-publishable-key"
-CLERK_SECRET_KEY="your-clerk-secret-key"
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="your-cloudinary-cloud-name"
-```
-
-4. **Set up database**
-```bash
-npx prisma migrate dev
-npx prisma generate
-npx prisma db seed
-```
-
-5. **Run the development server**
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+### Demo Credentials
+- **Admin:** username: `admin` | password: `admin`
+- **Teacher:** username: `teacher` | password: `teacher`
+- **Student:** username: `student` | password: `student`
+- **Parent:** username: `parent` | password: `parent`
 
 ## ✨ Key Features
 
@@ -81,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - **Form validation** using React Hook Form + Zod schemas
 - **Enhanced error handling** with user-friendly messages
 
-## 🛠️ Complete Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - **Next.js 14** - React framework with App Router
@@ -104,11 +66,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - **React Hook Form** - Performant form handling
 - **Zod** - Schema validation
 
-### UI Components
-- **Custom component library** built with Tailwind
-- **Responsive design patterns**
-- **Accessibility-first approach**
-
 ## 💡 Project Highlights
 
 This project demonstrates advanced full-stack development capabilities:
@@ -119,50 +76,9 @@ This project demonstrates advanced full-stack development capabilities:
 ✅ **File upload systems** with cloud storage integration  
 ✅ **Data visualization skills** with interactive charts  
 ✅ **Form validation** with enhanced error handling  
-✅ **Production-ready architecture** with TypeScript  
+✅ **Production deployment** on Railway platform  
 ✅ **Modern development practices** and clean code principles  
-
-## 🏗️ Architecture Overview
-
-```
-├── 🎯 Frontend (Next.js + React)
-│   ├── Role-based dashboards
-│   ├── Interactive charts & calendar
-│   └── Responsive UI components
-│
-├── 🔗 Backend (Next.js API Routes)
-│   ├── RESTful API endpoints
-│   ├── Middleware authentication
-│   └── Server actions
-│
-├── 🗄️ Database (PostgreSQL + Prisma)
-│   ├── Relational data modeling
-│   ├── Automated migrations
-│   └── Type-safe queries
-│
-└── ☁️ External Services
-    ├── Clerk (Authentication)
-    └── Cloudinary (File Storage)
-```
-
-## 📈 Performance Features
-
-- **Optimized database queries** with Prisma
-- **Image optimization** with Cloudinary CDN
-- **Server-side rendering** for improved SEO
-- **Type safety** throughout the application
-- **Error boundaries** and comprehensive error handling
-
-## 🚀 Deployment Ready
-
-The application is production-ready and can be deployed on:
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **Railway** or **Render**
-- Any platform supporting Node.js
 
 ---
 
-**Built with ❤️ by Bijay Dev**
-
-*This project showcases modern full-stack development practices and serves as a comprehensive school management solution.*
+**Built with ❤️ by Bijay Dev** | **[Live Demo](https://next-school-management-system-production.up.railway.app/)**
